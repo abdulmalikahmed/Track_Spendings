@@ -30,7 +30,7 @@
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.805"
+        app:layout_constraintHorizontal_bias="0.84"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.533"
@@ -38,16 +38,16 @@
 
     <Button
         android:id="@+id/CheckButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="127dp"
+        android:layout_height="53dp"
         android:backgroundTint="#448AFF"
         android:text="Statistics"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.297"
+        app:layout_constraintHorizontal_bias="0.271"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/EnterPrinceText"
-        app:layout_constraintVertical_bias="0.525" />
+        app:layout_constraintVertical_bias="0.479" />
 
     <Button
         android:id="@+id/LoutButton"
@@ -60,28 +60,31 @@
 
     <Button
         android:id="@+id/AddButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="36dp"
+        android:layout_width="116dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginEnd="60dp"
         android:backgroundTint="#448AFF"
         android:text="Add"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.656"
+        app:layout_constraintStart_toEndOf="@+id/CheckButton"
         app:layout_constraintTop_toBottomOf="@+id/LoutButton"
-        app:layout_constraintVertical_bias="0.796" />
+        app:layout_constraintVertical_bias="0.774" />
 
     <Spinner
         android:id="@+id/DDL"
-        android:layout_width="145dp"
-        android:layout_height="35dp"
+        android:layout_width="146dp"
+        android:layout_height="46dp"
         android:autofillHints="Food"
         android:scrollbarStyle="outsideOverlay"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/EnterPrinceText"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.53" />
+        app:layout_constraintVertical_bias="0.532" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -93,6 +96,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.479"
         app:srcCompat="@drawable/a" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

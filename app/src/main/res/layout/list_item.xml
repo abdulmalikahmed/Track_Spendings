@@ -1,12 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent"
-             android:padding="16dp"
-             android:ellipsize="end"
-             android:maxLines="1"
-             android:textAppearance="?attr/textAppearanceSubtitle1"
+<!-- res/layout/list_item.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="horizontal"
+    android:padding="16dp">
 
-    >
-
-</TextView>
+    <TextView
+        android:id="@+id/itemText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#448AFF"
+        android:backgroundTint="#448AFF"
+        android:textColor="#FAFAFA"
+        android:textSize="24sp"
+        android:textStyle="normal|bold|italic" />
+</LinearLayout>
